@@ -8,6 +8,8 @@ import { toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 emailjs.init({
   publicKey: 'sEsD7jslwrI76LAOn',
+  serviceID: 'service_a5r826b',
+  templateID:'template_jno0qql'
 });
 console.log(emailjs.publicKey);
 function ContactWithoutCaptcha() {
