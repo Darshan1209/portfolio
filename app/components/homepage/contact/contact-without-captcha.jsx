@@ -5,7 +5,11 @@ import axios from 'axios';
 import { useState } from 'react';
 import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';
-
+import emailjs from 'emailjs-com';
+emailjs.init({
+  publicKey: 'sEsD7jslwrI76LAOn',
+});
+console.log(emailjs.publicKey);
 function ContactWithoutCaptcha() {
   const [error, setError] = useState({ email: false, required: false });
   const [userInput, setUserInput] = useState({
@@ -32,6 +36,7 @@ function ContactWithoutCaptcha() {
     };
 
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    // console.log(serviceID);
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
@@ -40,6 +45,7 @@ function ContactWithoutCaptcha() {
       const teleRes = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`, userInput);
 
       if (res.status === 200 || teleRes.status === 200) {
+        console.log("done");
         toast.success('Message sent successfully!');
         setUserInput({
           name: '',
@@ -48,6 +54,7 @@ function ContactWithoutCaptcha() {
         });
       };
     } catch (error) {
+      console.log(error);
       toast.error(error?.text || error);
     };
   };

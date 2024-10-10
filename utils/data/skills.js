@@ -12,7 +12,7 @@ export const skillsData = [
   'Git',
   'Figma',
   'Canva',
-  'Ubuntu',
+  // 'Ubuntu',
   'Firebase',
 ]
 
