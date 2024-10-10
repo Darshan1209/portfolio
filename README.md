@@ -115,20 +115,20 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Darshan Patel",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  description: "I'm Darshan Patel, a passionate software developer with expertise in Python, Flutter and Dart . With over three years of experience in Python and two years of experience in Dart, I focus on creating seamless mobile and web applications. I’ve worked on projects ranging from custom non-profit organisation resource management apps  to real estate platforms and creative educational apps. I love exploring new technologies and solving complex problems, always striving to build innovative, user-friendly solutions. Open to new opportunities that align with my skills and interests.",
+  email: "darshanmita@gmail.com",
+  phone: "+254734528858",
+  address: "Nairobi, Kenya",
+  github: "https://github.com/Darshan1209",
+  facebook: "",
+  linkedIn: "https://www.linkedin.com/in/darshan-patel-027b55251/",
+  twitter: "https://x.com/Dots_1209",
+  stackOverflow: "https://stackoverflow.com/users/27205496/darshan-patel",
+  leetcode: "https://leetcode.com/u/Dots12/",
+  devUsername: "Darshan1209",
   resume: "...",
 };
 ```
