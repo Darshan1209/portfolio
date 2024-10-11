@@ -7,12 +7,11 @@ import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 emailjs.init({
-  publicKey: 'sEsD7jslwrI76LAOn',
-  serviceID: 'service_a5r826b',
+  publicKey:'sEsD7jslwrI76LAOn',
+  serviceID:'service_a5r826b',
   templateID:'template_jno0qql'
 });
 
-console.log(emailjs.publicKey);
 function ContactWithoutCaptcha() {
   const [error, setError] = useState({ email: false, required: false });
   const [userInput, setUserInput] = useState({
@@ -42,9 +41,9 @@ function ContactWithoutCaptcha() {
     // console.log(serviceID);
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
-    console.log(serviceID+"ser");
-    console.log(templateID+"tem");
-    console.log(options['publicKey']+"opt");
+    console.log(serviceID+" ser");
+    console.log(templateID+" tem");
+    console.log(options['publicKey']+" opt");
 
     try {
       const res = await emailjs.send(serviceID, templateID, userInput, options['publicKey']);
