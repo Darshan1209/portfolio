@@ -28,7 +28,6 @@ export async function POST(request) {
       }, { status: 200 });
     };
   } catch (error) {
-    console.log(error.response.data)
     return NextResponse.json({
       message: "Message sending failed!",
       success: false,
