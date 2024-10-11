@@ -11,6 +11,7 @@ emailjs.init({
   serviceID: 'service_a5r826b',
   templateID:'template_jno0qql'
 });
+
 console.log(emailjs.publicKey);
 function ContactWithoutCaptcha() {
   const [error, setError] = useState({ email: false, required: false });
