@@ -119,7 +119,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">SupaBase</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">REST API's</span>
+                <span className="text-amber-300">REST APIs</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">PostGres</span>
                 <span className="text-gray-400">{"', '"}</span>
