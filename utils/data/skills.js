@@ -7,12 +7,15 @@ export const skillsData = [
   'C++',
   'Django',
   'Microsoft Office',
+  'Next JS',
   'Python',
   'PostgreSQL',
   'Git',
   'Figma',
   'Canva',
+  'JS',
   // 'Ubuntu',
+  'C#',
   'Firebase',
 ]
 

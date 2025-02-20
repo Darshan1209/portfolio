@@ -111,7 +111,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Dart</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Flutter</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Firebase</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -119,13 +119,13 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">SupaBase</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">C#</span>
+                <span className="text-amber-300">REST API's</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML</span>
+                <span className="text-amber-300">PostGres</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">CSS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">JS</span>
+                <span className="text-amber-300">SQL</span>
                 <span className="text-gray-400">{"'],"}</span>
                 
               </div>
