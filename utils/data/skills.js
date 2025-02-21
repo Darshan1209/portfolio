@@ -13,7 +13,6 @@ export const skillsData = [
   'Git',
   'Figma',
   'Canva',
-  'JS',
   // 'Ubuntu',
   'C#',
   'Firebase',
